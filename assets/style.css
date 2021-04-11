@@ -95,11 +95,20 @@ color: #D84033;
     padding:0px 50px;
     
 }
+.sidebar{
+    padding: 50px;
+}
+.wrapper{
+    padding: 50px;
+}
+.wrapper-input{
+    background-color: #F9F6F1;
+}
 
 
-
-
-
+.footer{
+    padding: 50px;
+}
 
 
 
@@ -201,8 +210,22 @@ width: 570px;
  
 .aside-info{
     position: absolute;
-    top: 90%;
-    left: 9%;
+    top: 60%;
+    left: 40%;
     transform: translate(50%,-50%);
 }     
+.sidebar-img{
+    width: 260px;
+}
+.sidebar-card{
+    width: 100%;
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sidebar-title{
+    margin-right: 50px;
+}
 }
